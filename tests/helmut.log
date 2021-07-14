@@ -1,0 +1,471 @@
+[2021-07-13 17:53:50.693] DEBUG - root: Logger: DEBUG logging is enabled
+[2021-07-13 17:53:50.782] INFO - pytest-splunk-addon: Initializing the splunk_appinspect.App from path=..\Test_Addon
+[2021-07-13 17:53:50.782] INFO - pytest-splunk-addon: Initializing the splunk_appinspect.App from path=..\Test_Addon
+[2021-07-13 17:53:50.783] INFO - root: initializing ReqsTestGenerator class
+[2021-07-13 17:53:50.826] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_fields_positive
+[2021-07-13 17:53:50.826] DEBUG - filelock: Attempting to acquire lock 87983056 on generator.lock
+[2021-07-13 17:53:50.827] INFO - filelock: Lock 87983056 acquired on generator.lock
+[2021-07-13 17:53:50.827] DEBUG - filelock: Attempting to release lock 87983056 on generator.lock
+[2021-07-13 17:53:50.827] INFO - filelock: Lock 87983056 released on generator.lock
+[2021-07-13 17:53:50.828] INFO - pytest-splunk-addon: generating field tests
+[2021-07-13 17:53:50.828] INFO - pytest-splunk-addon: Parsing props.conf
+[2021-07-13 17:53:50.829] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'props.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\props.conf
+[2021-07-13 17:53:50.829] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\props.conf'. Does File Exist:True
+[2021-07-13 17:53:50.829] INFO - pytest-splunk-addon: Parsing Sourcetype based stanza: test_sourcetype
+[2021-07-13 17:53:50.829] INFO - pytest-splunk-addon: Parsing parameter=eval-a of stanza=test_sourcetype
+[2021-07-13 17:53:50.830] INFO - pytest-splunk-addon: Trying to parse classname=eval-a
+[2021-07-13 17:53:50.830] INFO - pytest-splunk-addon: Matched method of type=EVAL
+[2021-07-13 17:53:50.831] INFO - pytest-splunk-addon: Parsing parameter=eval-b of stanza=test_sourcetype
+[2021-07-13 17:53:50.831] INFO - pytest-splunk-addon: Trying to parse classname=eval-b
+[2021-07-13 17:53:50.831] INFO - pytest-splunk-addon: Matched method of type=EVAL
+[2021-07-13 17:53:50.832] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_fields_negative
+[2021-07-13 17:53:50.832] DEBUG - filelock: Attempting to acquire lock 87984848 on generator.lock
+[2021-07-13 17:53:50.832] INFO - filelock: Lock 87984848 acquired on generator.lock
+[2021-07-13 17:53:50.832] DEBUG - filelock: Attempting to release lock 87984848 on generator.lock
+[2021-07-13 17:53:50.833] INFO - filelock: Lock 87984848 released on generator.lock
+[2021-07-13 17:53:50.833] INFO - pytest-splunk-addon: generating field tests
+[2021-07-13 17:53:50.833] INFO - pytest-splunk-addon: Parsing Sourcetype based stanza: test_sourcetype
+[2021-07-13 17:53:50.833] INFO - pytest-splunk-addon: Parsing parameter=eval-a of stanza=test_sourcetype
+[2021-07-13 17:53:50.833] INFO - pytest-splunk-addon: Trying to parse classname=eval-a
+[2021-07-13 17:53:50.834] INFO - pytest-splunk-addon: Matched method of type=EVAL
+[2021-07-13 17:53:50.834] INFO - pytest-splunk-addon: Parsing parameter=eval-b of stanza=test_sourcetype
+[2021-07-13 17:53:50.834] INFO - pytest-splunk-addon: Trying to parse classname=eval-b
+[2021-07-13 17:53:50.834] INFO - pytest-splunk-addon: Matched method of type=EVAL
+[2021-07-13 17:53:50.835] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_fields_tags
+[2021-07-13 17:53:50.835] DEBUG - filelock: Attempting to acquire lock 87985744 on generator.lock
+[2021-07-13 17:53:50.835] INFO - filelock: Lock 87985744 acquired on generator.lock
+[2021-07-13 17:53:50.835] DEBUG - filelock: Attempting to release lock 87985744 on generator.lock
+[2021-07-13 17:53:50.836] INFO - filelock: Lock 87985744 released on generator.lock
+[2021-07-13 17:53:50.836] INFO - pytest-splunk-addon: Parsing tags.conf
+[2021-07-13 17:53:50.836] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'tags.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf
+[2021-07-13 17:53:50.836] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf'. Does File Exist:False
+[2021-07-13 17:53:50.836] WARNING - pytest-splunk-addon: tags.conf not found.
+[2021-07-13 17:53:50.837] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_fields_eventtypes
+[2021-07-13 17:53:50.838] DEBUG - filelock: Attempting to acquire lock 88080880 on generator.lock
+[2021-07-13 17:53:50.838] INFO - filelock: Lock 88080880 acquired on generator.lock
+[2021-07-13 17:53:50.838] DEBUG - filelock: Attempting to release lock 88080880 on generator.lock
+[2021-07-13 17:53:50.839] INFO - filelock: Lock 88080880 released on generator.lock
+[2021-07-13 17:53:50.839] INFO - pytest-splunk-addon: Parsing eventtypes.conf
+[2021-07-13 17:53:50.839] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'eventtypes.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\eventtypes.conf
+[2021-07-13 17:53:50.840] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\eventtypes.conf'. Does File Exist:False
+[2021-07-13 17:53:50.840] WARNING - pytest-splunk-addon: eventtypes.conf not found.
+[2021-07-13 17:53:50.840] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_fields_savedsearches
+[2021-07-13 17:53:50.841] DEBUG - filelock: Attempting to acquire lock 88081712 on generator.lock
+[2021-07-13 17:53:50.841] INFO - filelock: Lock 88081712 acquired on generator.lock
+[2021-07-13 17:53:50.841] DEBUG - filelock: Attempting to release lock 88081712 on generator.lock
+[2021-07-13 17:53:50.842] INFO - filelock: Lock 88081712 released on generator.lock
+[2021-07-13 17:53:50.842] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'savedsearches.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\savedsearches.conf
+[2021-07-13 17:53:50.842] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\savedsearches.conf'. Does File Exist:False
+[2021-07-13 17:53:50.843] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_cim_fields
+[2021-07-13 17:53:50.843] DEBUG - filelock: Attempting to acquire lock 88082544 on generator.lock
+[2021-07-13 17:53:50.843] INFO - filelock: Lock 88082544 acquired on generator.lock
+[2021-07-13 17:53:50.843] DEBUG - filelock: Attempting to release lock 88082544 on generator.lock
+[2021-07-13 17:53:50.844] INFO - filelock: Lock 88082544 released on generator.lock
+[2021-07-13 17:53:50.844] INFO - pytest-splunk-addon: Generating cim fields tests
+[2021-07-13 17:53:50.845] INFO - pytest-splunk-addon: Parsing tags.conf
+[2021-07-13 17:53:50.845] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'tags.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf
+[2021-07-13 17:53:50.845] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf'. Does File Exist:False
+[2021-07-13 17:53:50.845] WARNING - pytest-splunk-addon: tags.conf not found.
+[2021-07-13 17:53:50.846] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_cim_fields_not_allowed_in_search
+[2021-07-13 17:53:50.846] DEBUG - filelock: Attempting to acquire lock 88083216 on generator.lock
+[2021-07-13 17:53:50.846] INFO - filelock: Lock 88083216 acquired on generator.lock
+[2021-07-13 17:53:50.846] DEBUG - filelock: Attempting to release lock 88083216 on generator.lock
+[2021-07-13 17:53:50.847] INFO - filelock: Lock 88083216 released on generator.lock
+[2021-07-13 17:53:50.847] INFO - pytest-splunk-addon: Parsing tags.conf
+[2021-07-13 17:53:50.848] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'tags.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf
+[2021-07-13 17:53:50.848] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf'. Does File Exist:False
+[2021-07-13 17:53:50.848] WARNING - pytest-splunk-addon: tags.conf not found.
+[2021-07-13 17:53:50.849] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_cim_fields_not_allowed_in_props
+[2021-07-13 17:53:50.849] DEBUG - filelock: Attempting to acquire lock 88084048 on generator.lock
+[2021-07-13 17:53:50.849] INFO - filelock: Lock 88084048 acquired on generator.lock
+[2021-07-13 17:53:50.849] DEBUG - filelock: Attempting to release lock 88084048 on generator.lock
+[2021-07-13 17:53:50.850] INFO - filelock: Lock 88084048 released on generator.lock
+[2021-07-13 17:53:50.850] INFO - pytest-splunk-addon: Parsing tags.conf
+[2021-07-13 17:53:50.850] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'tags.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf
+[2021-07-13 17:53:50.850] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\tags.conf'. Does File Exist:False
+[2021-07-13 17:53:50.850] WARNING - pytest-splunk-addon: tags.conf not found.
+[2021-07-13 17:53:50.850] INFO - pytest-splunk-addon: Parsing props.conf
+[2021-07-13 17:53:50.851] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'props.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\props.conf
+[2021-07-13 17:53:50.851] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\props.conf'. Does File Exist:True
+[2021-07-13 17:53:50.851] INFO - pytest-splunk-addon: Parsing Sourcetype based stanza: test_sourcetype
+[2021-07-13 17:53:50.851] INFO - pytest-splunk-addon: Parsing parameter=eval-a of stanza=test_sourcetype
+[2021-07-13 17:53:50.851] INFO - pytest-splunk-addon: Trying to parse classname=eval-a
+[2021-07-13 17:53:50.851] INFO - pytest-splunk-addon: Matched method of type=EVAL
+[2021-07-13 17:53:50.851] INFO - pytest-splunk-addon: Parsing parameter=eval-b of stanza=test_sourcetype
+[2021-07-13 17:53:50.852] INFO - pytest-splunk-addon: Trying to parse classname=eval-b
+[2021-07-13 17:53:50.852] INFO - pytest-splunk-addon: Matched method of type=EVAL
+[2021-07-13 17:53:50.852] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_cim_mapped_datamodel
+[2021-07-13 17:53:50.853] DEBUG - filelock: Attempting to acquire lock 88138416 on generator.lock
+[2021-07-13 17:53:50.853] INFO - filelock: Lock 88138416 acquired on generator.lock
+[2021-07-13 17:53:50.853] DEBUG - filelock: Attempting to release lock 88138416 on generator.lock
+[2021-07-13 17:53:50.853] INFO - filelock: Lock 88138416 released on generator.lock
+[2021-07-13 17:53:50.854] INFO - pytest-splunk-addon: Parsing eventtypes.conf
+[2021-07-13 17:53:50.854] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'eventtypes.conf' at directory 'default'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\eventtypes.conf
+[2021-07-13 17:53:50.854] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\default\eventtypes.conf'. Does File Exist:False
+[2021-07-13 17:53:50.854] WARNING - pytest-splunk-addon: eventtypes.conf not found.
+[2021-07-13 17:53:50.855] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_indextime_key_fields
+[2021-07-13 17:53:50.855] DEBUG - filelock: Attempting to acquire lock 88139216 on generator.lock
+[2021-07-13 17:53:50.855] INFO - filelock: Lock 88139216 acquired on generator.lock
+[2021-07-13 17:53:50.855] DEBUG - filelock: Attempting to release lock 88139216 on generator.lock
+[2021-07-13 17:53:50.856] INFO - filelock: Lock 88139216 released on generator.lock
+[2021-07-13 17:53:50.858] INFO - pytest-splunk-addon: Samples path is: .\samples
+[2021-07-13 17:53:50.858] INFO - pytest-splunk-addon: Samples path is: .\samples
+[2021-07-13 17:53:50.858] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py' called 'get_config' to retrieve the configuration file 'pytest-splunk-addon-data.conf' at directory '..\tests'. App filepath: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\..\tests\pytest-splunk-addon-data.conf
+[2021-07-13 17:53:50.858] DEBUG - splunk_appinspect.app: 'c:\users\harshit.vaghani\desktop\myenv\myenv\lib\site-packages\splunk_appinspect\app.py.file_exists' was called. File path being checked:'C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\..\tests\pytest-splunk-addon-data.conf'. Does File Exist:True
+[2021-07-13 17:53:50.859] INFO - pytest-splunk-addon: Using Eventgen path: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\..\tests\pytest-splunk-addon-data.conf
+Using Conf file name: psa-data-gen
+[2021-07-13 17:53:50.859] INFO - pytest-splunk-addon: Using Eventgen path: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\..\tests\pytest-splunk-addon-data.conf
+Using Conf file name: psa-data-gen
+[2021-07-13 17:53:50.859] INFO - pytest-splunk-addon: Samples path is: .\samples
+[2021-07-13 17:53:50.860] INFO - pytest-splunk-addon: Using Eventgen path: C:\Users\harshit.vaghani\Desktop\work\Test_Addon\Test_Addon\..\tests\pytest-splunk-addon-data.conf
+Using Conf file name: psa-data-gen
+[2021-07-13 17:53:50.860] INFO - pytest-splunk-addon: Sample file found for stanza : test_data.sample
+[2021-07-13 17:53:50.860] INFO - pytest-splunk-addon: Samples path is: .\samples
+[2021-07-13 17:53:50.860] INFO - pytest-splunk-addon: The replacement type given is: 'timestamp' for token:'##timestamp##'
+[2021-07-13 17:53:50.860] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-07-13 17:53:50.867] DEBUG - faker.factory: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-07-13 17:53:50.870] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-07-13 17:53:50.874] DEBUG - faker.factory: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-07-13 17:53:50.875] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-07-13 17:53:50.878] DEBUG - faker.factory: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-07-13 17:53:50.879] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-07-13 17:53:50.880] DEBUG - faker.factory: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-07-13 17:53:50.883] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-07-13 17:53:50.885] DEBUG - faker.factory: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-07-13 17:53:50.886] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-07-13 17:53:50.891] DEBUG - faker.factory: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-07-13 17:53:50.892] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-07-13 17:53:50.893] DEBUG - faker.factory: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-07-13 17:53:50.895] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-07-13 17:53:50.897] DEBUG - faker.factory: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-07-13 17:53:50.898] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-07-13 17:53:50.902] DEBUG - faker.factory: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-07-13 17:53:50.903] DEBUG - faker.factory: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:50.904] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-07-13 17:53:50.905] DEBUG - faker.factory: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-07-13 17:53:50.906] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-07-13 17:53:50.911] DEBUG - faker.factory: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-07-13 17:53:50.912] DEBUG - faker.factory: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:50.912] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-07-13 17:53:50.916] DEBUG - faker.factory: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-07-13 17:53:50.917] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-07-13 17:53:50.920] DEBUG - faker.factory: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-07-13 17:53:50.922] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-07-13 17:53:50.923] DEBUG - faker.factory: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-07-13 17:53:50.925] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-07-13 17:53:50.932] DEBUG - faker.factory: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-07-13 17:53:50.938] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-07-13 17:53:50.945] DEBUG - faker.factory: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-07-13 17:53:50.947] DEBUG - faker.factory: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:50.947] DEBUG - faker.factory: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:50.947] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-07-13 17:53:50.953] DEBUG - faker.factory: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-07-13 17:53:50.955] DEBUG - faker.factory: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:50.957] INFO - pytest-splunk-addon: event metadata: {'input_type': 'modinput', 'sourcetype': 'test_sourcetype', 'host_type': 'plugin', 'timestamp_type': 'plugin', 'host': 'test_data.sample_1'}
+[2021-07-13 17:53:50.957] INFO - pytest-splunk-addon: event metadata: {'input_type': 'modinput', 'sourcetype': 'test_sourcetype', 'host_type': 'plugin', 'timestamp_type': 'plugin', 'host': 'test_data.sample_2'}
+[2021-07-13 17:53:50.958] INFO - pytest-splunk-addon: Returning host with value ['test_data.sample_1'] for stanza test_data.sample
+[2021-07-13 17:53:50.958] INFO - pytest-splunk-addon: Returning host with value ['test_data.sample_2'] for stanza test_data.sample
+[2021-07-13 17:53:50.959] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_indextime_time
+[2021-07-13 17:53:50.959] DEBUG - filelock: Attempting to acquire lock 88308208 on generator.lock
+[2021-07-13 17:53:50.960] INFO - filelock: Lock 88308208 acquired on generator.lock
+[2021-07-13 17:53:50.960] DEBUG - filelock: Attempting to release lock 88308208 on generator.lock
+[2021-07-13 17:53:50.960] INFO - filelock: Lock 88308208 released on generator.lock
+[2021-07-13 17:53:50.961] INFO - pytest-splunk-addon: Returning host with value ['test_data.sample_1'] for stanza test_data.sample
+[2021-07-13 17:53:50.961] INFO - pytest-splunk-addon: Returning host with value ['test_data.sample_2'] for stanza test_data.sample
+[2021-07-13 17:53:50.963] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_indextime_line_breaker
+[2021-07-13 17:53:50.963] DEBUG - filelock: Attempting to acquire lock 88544496 on generator.lock
+[2021-07-13 17:53:50.963] INFO - filelock: Lock 88544496 acquired on generator.lock
+[2021-07-13 17:53:50.963] DEBUG - filelock: Attempting to release lock 88544496 on generator.lock
+[2021-07-13 17:53:50.964] INFO - filelock: Lock 88544496 released on generator.lock
+[2021-07-13 17:53:50.965] INFO - pytest-splunk-addon: Generating line breaker test
+[2021-07-13 17:53:50.965] INFO - pytest-splunk-addon: Sample Count: 1
+[2021-07-13 17:53:50.965] INFO - pytest-splunk-addon: Expected Count: 2
+[2021-07-13 17:53:50.965] INFO - pytest-splunk-addon: Returning host with value ['test_data.sample_1'] for stanza test_data.sample
+[2021-07-13 17:53:50.966] INFO - pytest-splunk-addon: Sample Count: 1
+[2021-07-13 17:53:50.966] INFO - pytest-splunk-addon: Expected Count: 2
+[2021-07-13 17:53:50.966] INFO - pytest-splunk-addon: Returning host with value ['test_data.sample_2'] for stanza test_data.sample
+[2021-07-13 17:53:50.967] INFO - pytest-splunk-addon: generating testcases for splunk_app_searchtime. fixture=splunk_searchtime_requirement_param
+[2021-07-13 17:53:50.967] DEBUG - filelock: Attempting to acquire lock 88545904 on generator.lock
+[2021-07-13 17:53:50.967] INFO - filelock: Lock 88545904 acquired on generator.lock
+[2021-07-13 17:53:50.967] DEBUG - filelock: Attempting to release lock 88545904 on generator.lock
+[2021-07-13 17:53:50.968] INFO - filelock: Lock 88545904 released on generator.lock
+[2021-07-13 17:53:50.972] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-07-13 17:53:50.979] DEBUG - faker.factory: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-07-13 17:53:50.979] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-07-13 17:53:50.983] DEBUG - faker.factory: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-07-13 17:53:50.983] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-07-13 17:53:50.987] DEBUG - faker.factory: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-07-13 17:53:50.987] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-07-13 17:53:50.988] DEBUG - faker.factory: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-07-13 17:53:50.988] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-07-13 17:53:50.990] DEBUG - faker.factory: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-07-13 17:53:50.991] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-07-13 17:53:50.995] DEBUG - faker.factory: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-07-13 17:53:50.995] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-07-13 17:53:50.996] DEBUG - faker.factory: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-07-13 17:53:50.996] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-07-13 17:53:50.999] DEBUG - faker.factory: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-07-13 17:53:50.999] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-07-13 17:53:51.002] DEBUG - faker.factory: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-07-13 17:53:51.002] DEBUG - faker.factory: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:51.003] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-07-13 17:53:51.004] DEBUG - faker.factory: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-07-13 17:53:51.004] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-07-13 17:53:51.009] DEBUG - faker.factory: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-07-13 17:53:51.009] DEBUG - faker.factory: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:51.010] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-07-13 17:53:51.013] DEBUG - faker.factory: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-07-13 17:53:51.013] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-07-13 17:53:51.016] DEBUG - faker.factory: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-07-13 17:53:51.016] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-07-13 17:53:51.017] DEBUG - faker.factory: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-07-13 17:53:51.017] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-07-13 17:53:51.025] DEBUG - faker.factory: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-07-13 17:53:51.025] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-07-13 17:53:51.034] DEBUG - faker.factory: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-07-13 17:53:51.034] DEBUG - faker.factory: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:51.034] DEBUG - faker.factory: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:51.034] DEBUG - faker.factory: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-07-13 17:53:51.040] DEBUG - faker.factory: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-07-13 17:53:51.040] DEBUG - faker.factory: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-07-13 17:53:51.041] INFO - pytest-splunk-addon: Get the Splunk instance of splunk_type=external
+[2021-07-13 17:53:51.041] INFO - pytest-splunk-addon: Trying to connect Splunk instance...  splunk={"port_hec": "8088", "port_s2s": "9997", "port_web": "8000", "host": "10.0.6.47", "port": "8089", "username": "test_user", "password": "hello@123", "forwarder_host": "10.0.6.47"}
+[2021-07-13 17:53:51.173] INFO - pytest-splunk-addon: Connected to Splunk instance.
+[2021-07-13 17:53:51.173] INFO - pytest-splunk-addon: Trying to connect Splunk instance...  splunk={"port_hec": "8088", "port_s2s": "9997", "port_web": "8000", "host": "10.0.6.47", "port": "8089", "username": "test_user", "password": "hello@123", "forwarder_host": "10.0.6.47"}
+[2021-07-13 17:53:51.299] INFO - pytest-splunk-addon: Connected to Splunk instance.
+[2021-07-13 17:53:51.299] INFO - pytest-splunk-addon: Trying to connect Splunk HEC...  splunk={"port_hec": "8088", "port_s2s": "9997", "port_web": "8000", "host": "10.0.6.47", "port": "8089", "username": "test_user", "password": "hello@123", "forwarder_host": "10.0.6.47"}
+[2021-07-13 17:53:51.301] DEBUG - urllib3.connectionpool: Starting new HTTPS connection (1): 10.0.6.47:8088
+[2021-07-13 17:53:51.429] DEBUG - urllib3.connectionpool: https://10.0.6.47:8088 "GET /services/collector/health/1.0 HTTP/1.1" 200 35
+[2021-07-13 17:53:51.430] INFO - pytest-splunk-addon: Splunk HEC is responsive.
+[2021-07-13 17:53:51.430] INFO - pytest-splunk-addon: Initializing SearchUtil for the Splunk instace.
+[2021-07-13 17:53:51.431] DEBUG - CloudSplunk(88545456): Helmut Splunk created:<CloudSplunk@88545456 name="88545456" uri="https://10.0.6.47:8089>
+[2021-07-13 17:53:51.431] DEBUG - SDKConnector: Logging in the connector.
+[2021-07-13 17:53:51.551] DEBUG - root: GET request to https://10.0.6.47:8089/services/server/settings/ (body: {})
+[2021-07-13 17:53:51.673] DEBUG - root: Operation took 0:00:00.122388
+[2021-07-13 17:53:51.674] DEBUG - CloudSplunk(88545456): Set web base to: http://centos7:8000
+[2021-07-13 17:53:51.674] WARNING - CloudSplunk(88545456): Connector 0:test_user is being replaced
+[2021-07-13 17:53:51.674] DEBUG - SDKConnector: Logging in the connector.
+[2021-07-13 17:53:51.802] INFO - pytest-splunk-addon: initialized SearchUtil for the Splunk instace.
+[2021-07-13 17:53:51.802] INFO - pytest-splunk-addon: Fetched splunk_hec_uri=https://10.0.6.47:8088/services/collector
+[2021-07-13 17:53:51.803] INFO - pytest-splunk-addon: Events cleanup was disabled.
+[2021-07-13 17:53:51.804] INFO - pytest-splunk-addon: Making a HEC event request with the following params:
+hec_uri:https://10.0.6.47:8088/services/collector
+headers:{'Authorization': 'Splunk fc1249db-ab86-424b-9558-734f5a2207b2'}
+[2021-07-13 17:53:51.806] DEBUG - urllib3.connectionpool: Starting new HTTPS connection (1): 10.0.6.47:8088
+[2021-07-13 17:53:51.928] DEBUG - urllib3.connectionpool: https://10.0.6.47:8088 "POST /services/collector/event HTTP/1.1" 200 27
+[2021-07-13 17:54:41.933] INFO - SDKJobsWrapper: Creating job with query: search index=* ##*## | stats count by source, sourcetype
+[2021-07-13 17:54:41.933] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search index=* ##*## | stats count by source, sourcetype', 'max_time': 60})
+[2021-07-13 17:54:42.057] DEBUG - root: Operation took 0:00:00.123106
+[2021-07-13 17:54:42.058] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:54:42.058] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179082.12/ (body: {})
+[2021-07-13 17:54:42.177] DEBUG - root: Operation took 0:00:00.119532
+[2021-07-13 17:54:42.178] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179082.12/ (body: {})
+[2021-07-13 17:54:42.305] DEBUG - root: Operation took 0:00:00.127093
+[2021-07-13 17:54:43.321] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179082.12/ (body: {})
+[2021-07-13 17:54:43.441] DEBUG - root: Operation took 0:00:00.120722
+[2021-07-13 17:54:43.475] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179082.12/ (body: {})
+[2021-07-13 17:54:43.595] DEBUG - root: Operation took 0:00:00.119543
+[2021-07-13 17:54:44.634] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179082.12/ (body: {})
+[2021-07-13 17:54:44.752] DEBUG - root: Operation took 0:00:00.117291
+[2021-07-13 17:54:44.779] DEBUG - SDKJobWrapper: Job 1626179082.12 wait is done.
+[2021-07-13 17:54:44.779] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179082.12/results (body: {'offset': 0, 'count': 4000, 'segmentation': 'none'})
+[2021-07-13 17:54:44.895] DEBUG - root: Operation took 0:00:00.115900
+[2021-07-13 17:54:44.896] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179082.12/ (body: {})
+[2021-07-13 17:54:45.021] DEBUG - root: Operation took 0:00:00.124993
+[2021-07-13 17:55:12.427] INFO - pytest-splunk-addon: Fetched splunk_web_uri=http://10.0.6.47:8000/
+[2021-07-13 17:55:12.428] INFO - SDKJobsWrapper: Creating job with query: search (index=*) sourcetype=test_sourcetype host IN ("test_data.sample_2","test_data.sample_1") | stats count
+[2021-07-13 17:55:12.428] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search (index=*) sourcetype=test_sourcetype host IN ("test_data.sample_2","test_data.sample_1") | stats count', 'max_time': 60})
+[2021-07-13 17:55:12.547] DEBUG - root: Operation took 0:00:00.119261
+[2021-07-13 17:55:12.547] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:12.547] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179112.13/ (body: {})
+[2021-07-13 17:55:12.663] DEBUG - root: Operation took 0:00:00.115609
+[2021-07-13 17:55:12.664] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179112.13/ (body: {})
+[2021-07-13 17:55:12.793] DEBUG - root: Operation took 0:00:00.129242
+[2021-07-13 17:55:13.801] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179112.13/ (body: {})
+[2021-07-13 17:55:13.921] DEBUG - root: Operation took 0:00:00.119958
+[2021-07-13 17:55:13.950] DEBUG - SDKJobWrapper: Job 1626179112.13 wait is done.
+[2021-07-13 17:55:13.950] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179112.13/results (body: {'offset': 0, 'count': 4000, 'segmentation': 'none'})
+[2021-07-13 17:55:14.071] DEBUG - root: Operation took 0:00:00.120925
+[2021-07-13 17:55:14.072] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179112.13/ (body: {})
+[2021-07-13 17:55:14.189] DEBUG - root: Operation took 0:00:00.116155
+[2021-07-13 17:55:14.235] INFO - SDKJobsWrapper: Creating job with query: search (index=*)  | fields eventtype,tag 
+| appendpipe [ | search (tag=alert) | eval dm_type="Alerts"]
+| appendpipe [ | search (tag=authentication) OR (tag=authentication tag=default) OR (tag=authentication tag=insecure) OR (tag=authentication tag=privileged) | eval dm_type="Authentication"]
+| appendpipe [ | search (tag=certificate) OR (tag=certificate tag=ssl) | eval dm_type="Certificates"]
+| appendpipe [ | search (tag=change) OR (tag=change tag=audit) OR (tag=change tag=endpoint) OR (tag=change tag=network) OR (tag=change tag=account) | eval dm_type="Change"]
+| appendpipe [ | search (tag=inventory tag=cpu) OR (tag=inventory tag=memory) OR (tag=inventory tag=network) OR (tag=inventory tag=storage) OR (tag=inventory tag=system tag=version) OR (tag=inventory tag=user) OR (tag=inventory tag=user tag=default) OR (tag=inventory tag=virtual) OR (tag=inventory tag=virtual tag=snapshot) OR (tag=inventory tag=virtual tag=tools) | eval dm_type="Compute_Inventory"]
+| appendpipe [ | search (tag=dlp tag=incident) | eval dm_type="DLP"]
+| appendpipe [ | search (tag=database) OR (tag=database tag=instance) OR (tag=database tag=instance tag=stats) OR (tag=database tag=instance tag=session) OR (tag=database tag=instance tag=lock) OR (tag=database tag=query) OR (tag=database tag=query tag=tablespace) OR (tag=database tag=query tag=stats) | eval dm_type="Databases"]
+| appendpipe [ | search (tag=email) OR (tag=email tag=delivery) OR (tag=email tag=content) OR (tag=email tag=filter) | eval dm_type="Email"]
+| appendpipe [ | search (tag=listening tag=port) OR (tag=process tag=report) OR (tag=service tag=report) OR (tag=endpoint tag=filesystem) OR (tag=endpoint tag=registry) | eval dm_type="Endpoint"]
+| appendpipe [ | search (tag=track_event_signatures) | eval dm_type="Event_Signatures"]
+| appendpipe [ | search (tag=messaging) | eval dm_type="Interprocess_Messaging"]
+| appendpipe [ | search (tag=ids tag=attack) | eval dm_type="Intrusion_Detection"]
+| appendpipe [ | search (tag=jvm) OR (tag=jvm tag=threading) OR (tag=jvm tag=runtime) OR (tag=jvm tag=os) OR (tag=jvm tag=compilation) OR (tag=jvm tag=classloading) OR (tag=jvm tag=memory) | eval dm_type="JVM"]
+| appendpipe [ | search (tag=malware tag=attack) OR (tag=malware tag=operations) | eval dm_type="Malware"]
+| appendpipe [ | search (tag=network tag=resolution tag=dns) | eval dm_type="Network_Resolution"]
+| appendpipe [ | search (tag=network tag=session) OR (tag=network tag=session tag=start) OR (tag=network tag=session tag=end) OR (tag=network tag=session tag=dhcp) OR (tag=network tag=session tag=vpn) | eval dm_type="Network_Sessions"]
+| appendpipe [ | search (tag=network tag=communicate) | eval dm_type="Network_Traffic"]
+| appendpipe [ | search (tag=performance tag=cpu) OR (tag=performance tag=facilities) OR (tag=performance tag=memory) OR (tag=performance tag=storage) OR (tag=performance tag=network) OR (tag=performance tag=os) OR (tag=performance tag=os tag=time tag=synchronize) OR (tag=performance tag=os tag=uptime) | eval dm_type="Performance"]
+| appendpipe [ | search (tag=modaction) OR (tag=modaction tag=invocation) | eval dm_type="Splunk_Audit"]
+| appendpipe [ | search (tag=ticketing) OR (tag=ticketing tag=change) OR (tag=ticketing tag=incident) OR (tag=ticketing tag=problem) | eval dm_type="Ticket_Management"]
+| appendpipe [ | search (tag=update tag=status) OR (tag=update tag=error) | eval dm_type="Updates"]
+| appendpipe [ | search (tag=report tag=vulnerability) | eval dm_type="Vulnerabilities"]
+| appendpipe [ | search (tag=web) OR (tag=web tag=proxy) | eval dm_type="Web"]
+| stats delim=", " dc(dm_type) as datamodel_count, values(dm_type) as datamodels by eventtype | nomv datamodels
+        | where datamodel_count > 1 and NOT eventtype IN ("err0r")
+        
+[2021-07-13 17:55:14.236] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search (index=*)  | fields eventtype,tag \n| appendpipe [ | search (tag=alert) | eval dm_type="Alerts"]\n| appendpipe [ | search (tag=authentication) OR (tag=authentication tag=default) OR (tag=authentication tag=insecure) OR (tag=authentication tag=privileged) | eval dm_type="Authentication"]\n| appendpipe [ | search (tag=certificate) OR (tag=certificate tag=ssl) | eval dm_type="Certificates"]\n| appendpipe [ | search (tag=change) OR (tag=change tag=audit) OR (tag=change tag=endpoint) OR (tag=change tag=network) OR (tag=change tag=account) | eval dm_type="Change"]\n| appendpipe [ | search (tag=inventory tag=cpu) OR (tag=inventory tag=memory) OR (tag=inventory tag=network) OR (tag=inventory tag=storage) OR (tag=inventory tag=system tag=version) OR (tag=inventory tag=user) OR (tag=inventory tag=user tag=default) OR (tag=inventory tag=virtual) OR (tag=inventory tag=virtual tag=snapshot) OR (tag=inventory tag=virtual tag=tools) | eval dm_type="Compute_Inventory"]\n| appendpipe [ | search (tag=dlp tag=incident) | eval dm_type="DLP"]\n| appendpipe [ | search (tag=database) OR (tag=database tag=instance) OR (tag=database tag=instance tag=stats) OR (tag=database tag=instance tag=session) OR (tag=database tag=instance tag=lock) OR (tag=database tag=query) OR (tag=database tag=query tag=tablespace) OR (tag=database tag=query tag=stats) | eval dm_type="Databases"]\n| appendpipe [ | search (tag=email) OR (tag=email tag=delivery) OR (tag=email tag=content) OR (tag=email tag=filter) | eval dm_type="Email"]\n| appendpipe [ | search (tag=listening tag=port) OR (tag=process tag=report) OR (tag=service tag=report) OR (tag=endpoint tag=filesystem) OR (tag=endpoint tag=registry) | eval dm_type="Endpoint"]\n| appendpipe [ | search (tag=track_event_signatures) | eval dm_type="Event_Signatures"]\n| appendpipe [ | search (tag=messaging) | eval dm_type="Interprocess_Messaging"]\n| appendpipe [ | search (tag=ids tag=attack) | eval dm_type="Intrusion_Detection"]\n| appendpipe [ | search (tag=jvm) OR (tag=jvm tag=threading) OR (tag=jvm tag=runtime) OR (tag=jvm tag=os) OR (tag=jvm tag=compilation) OR (tag=jvm tag=classloading) OR (tag=jvm tag=memory) | eval dm_type="JVM"]\n| appendpipe [ | search (tag=malware tag=attack) OR (tag=malware tag=operations) | eval dm_type="Malware"]\n| appendpipe [ | search (tag=network tag=resolution tag=dns) | eval dm_type="Network_Resolution"]\n| appendpipe [ | search (tag=network tag=session) OR (tag=network tag=session tag=start) OR (tag=network tag=session tag=end) OR (tag=network tag=session tag=dhcp) OR (tag=network tag=session tag=vpn) | eval dm_type="Network_Sessions"]\n| appendpipe [ | search (tag=network tag=communicate) | eval dm_type="Network_Traffic"]\n| appendpipe [ | search (tag=performance tag=cpu) OR (tag=performance tag=facilities) OR (tag=performance tag=memory) OR (tag=performance tag=storage) OR (tag=performance tag=network) OR (tag=performance tag=os) OR (tag=performance tag=os tag=time tag=synchronize) OR (tag=performance tag=os tag=uptime) | eval dm_type="Performance"]\n| appendpipe [ | search (tag=modaction) OR (tag=modaction tag=invocation) | eval dm_type="Splunk_Audit"]\n| appendpipe [ | search (tag=ticketing) OR (tag=ticketing tag=change) OR (tag=ticketing tag=incident) OR (tag=ticketing tag=problem) | eval dm_type="Ticket_Management"]\n| appendpipe [ | search (tag=update tag=status) OR (tag=update tag=error) | eval dm_type="Updates"]\n| appendpipe [ | search (tag=report tag=vulnerability) | eval dm_type="Vulnerabilities"]\n| appendpipe [ | search (tag=web) OR (tag=web tag=proxy) | eval dm_type="Web"]\n| stats delim=", " dc(dm_type) as datamodel_count, values(dm_type) as datamodels by eventtype | nomv datamodels\n        | where datamodel_count > 1 and NOT eventtype IN ("err0r")\n        ', 'max_time': 60})
+[2021-07-13 17:55:14.371] DEBUG - root: Operation took 0:00:00.135460
+[2021-07-13 17:55:14.372] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:14.372] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179114.14/ (body: {})
+[2021-07-13 17:55:14.489] DEBUG - root: Operation took 0:00:00.116962
+[2021-07-13 17:55:14.520] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179114.14/ (body: {})
+[2021-07-13 17:55:14.640] DEBUG - root: Operation took 0:00:00.118262
+[2021-07-13 17:55:15.675] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179114.14/ (body: {})
+[2021-07-13 17:55:15.794] DEBUG - root: Operation took 0:00:00.118259
+[2021-07-13 17:55:15.850] DEBUG - SDKJobWrapper: Job 1626179114.14 wait is done.
+[2021-07-13 17:55:15.850] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179114.14/results (body: {'offset': 0, 'count': 4000, 'segmentation': 'none'})
+[2021-07-13 17:55:15.966] DEBUG - root: Operation took 0:00:00.116704
+[2021-07-13 17:55:15.967] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179114.14/ (body: {})
+[2021-07-13 17:55:16.090] DEBUG - root: Operation took 0:00:00.121974
+[2021-07-13 17:55:16.158] INFO - SDKJobsWrapper: Creating job with query: 
+            search index=_internal CASE(ERROR)
+            sourcetype!=splunkd_ui_access
+            AND sourcetype!=splunk_web_access
+            AND sourcetype!=splunk_web_service
+            AND sourcetype!=splunkd_access
+            AND sourcetype!=splunkd
+         NOT "message_key=\"INPUT_CSV:INVALID_LOOKUP_TABLE_TYPE\" message=The lookup table 'dmc_assets' requires a .csv or KV store lookup definition." NOT "message_key=\"\" message=DAG Execution Exception: Search has been cancelled" | table _raw
+[2021-07-13 17:55:16.159] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': '\n            search index=_internal CASE(ERROR)\n            sourcetype!=splunkd_ui_access\n            AND sourcetype!=splunk_web_access\n            AND sourcetype!=splunk_web_service\n            AND sourcetype!=splunkd_access\n            AND sourcetype!=splunkd\n         NOT "message_key=\\"INPUT_CSV:INVALID_LOOKUP_TABLE_TYPE\\" message=The lookup table \'dmc_assets\' requires a .csv or KV store lookup definition." NOT "message_key=\\"\\" message=DAG Execution Exception: Search has been cancelled" | table _raw', 'auto_finalize_ec': 200, 'max_time': 120})
+[2021-07-13 17:55:16.284] DEBUG - root: Operation took 0:00:00.124204
+[2021-07-13 17:55:16.284] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:16.285] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:16.412] DEBUG - root: Operation took 0:00:00.128003
+[2021-07-13 17:55:16.414] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:16.552] DEBUG - root: Operation took 0:00:00.137314
+[2021-07-13 17:55:17.588] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:17.706] DEBUG - root: Operation took 0:00:00.118298
+[2021-07-13 17:55:17.734] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:17.854] DEBUG - root: Operation took 0:00:00.119381
+[2021-07-13 17:55:18.896] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:19.018] DEBUG - root: Operation took 0:00:00.121166
+[2021-07-13 17:55:19.048] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:19.195] DEBUG - root: Operation took 0:00:00.147566
+[2021-07-13 17:55:20.225] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:20.788] DEBUG - root: Operation took 0:00:00.562695
+[2021-07-13 17:55:20.819] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:20.942] DEBUG - root: Operation took 0:00:00.122089
+[2021-07-13 17:55:21.994] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:22.126] DEBUG - root: Operation took 0:00:00.131900
+[2021-07-13 17:55:22.156] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:22.325] DEBUG - root: Operation took 0:00:00.169021
+[2021-07-13 17:55:23.360] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/ (body: {})
+[2021-07-13 17:55:23.476] DEBUG - root: Operation took 0:00:00.115804
+[2021-07-13 17:55:23.504] DEBUG - SDKJobWrapper: Job 1626179116.15 wait is done.
+[2021-07-13 17:55:23.504] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:23.626] DEBUG - root: Operation took 0:00:00.122039
+[2021-07-13 17:55:24.366] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179116.15/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:24.493] DEBUG - root: Operation took 0:00:00.126814
+[2021-07-13 17:55:25.319] INFO - SDKJobsWrapper: Creating job with query: 
+            search index=_internal CASE(ERROR)
+            sourcetype!=splunkd_ui_access
+            AND sourcetype!=splunk_web_access
+            AND sourcetype!=splunk_web_service
+            AND sourcetype!=splunkd_access
+            AND sourcetype!=splunkd
+         NOT "message_key=\"INPUT_CSV:INVALID_LOOKUP_TABLE_TYPE\" message=The lookup table 'dmc_assets' requires a .csv or KV store lookup definition." NOT "message_key=\"\" message=DAG Execution Exception: Search has been cancelled" | table *
+[2021-07-13 17:55:25.320] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': '\n            search index=_internal CASE(ERROR)\n            sourcetype!=splunkd_ui_access\n            AND sourcetype!=splunk_web_access\n            AND sourcetype!=splunk_web_service\n            AND sourcetype!=splunkd_access\n            AND sourcetype!=splunkd\n         NOT "message_key=\\"INPUT_CSV:INVALID_LOOKUP_TABLE_TYPE\\" message=The lookup table \'dmc_assets\' requires a .csv or KV store lookup definition." NOT "message_key=\\"\\" message=DAG Execution Exception: Search has been cancelled" | table *', 'auto_finalize_ec': 120, 'max_time': 120})
+[2021-07-13 17:55:25.440] DEBUG - root: Operation took 0:00:00.119559
+[2021-07-13 17:55:25.441] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:25.441] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:25.557] DEBUG - root: Operation took 0:00:00.116417
+[2021-07-13 17:55:25.558] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:25.679] DEBUG - root: Operation took 0:00:00.120177
+[2021-07-13 17:55:26.716] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:26.832] DEBUG - root: Operation took 0:00:00.115352
+[2021-07-13 17:55:26.861] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:26.979] DEBUG - root: Operation took 0:00:00.118541
+[2021-07-13 17:55:28.013] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:28.139] DEBUG - root: Operation took 0:00:00.126264
+[2021-07-13 17:55:28.169] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:28.288] DEBUG - root: Operation took 0:00:00.119126
+[2021-07-13 17:55:29.323] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:29.462] DEBUG - root: Operation took 0:00:00.138376
+[2021-07-13 17:55:29.492] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:29.627] DEBUG - root: Operation took 0:00:00.134997
+[2021-07-13 17:55:30.664] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/ (body: {})
+[2021-07-13 17:55:30.825] DEBUG - root: Operation took 0:00:00.160944
+[2021-07-13 17:55:30.864] DEBUG - SDKJobWrapper: Job 1626179125.16 wait is done.
+[2021-07-13 17:55:30.864] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179125.16/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:31.001] DEBUG - root: Operation took 0:00:00.136217
+[2021-07-13 17:55:32.923] INFO - pytest-splunk-addon: Executing the search query: search (index=*) sourcetype="test_sourcetype" | stats count by sourcetype
+[2021-07-13 17:55:32.923] INFO - SDKJobsWrapper: Creating job with query: search (index=*) sourcetype="test_sourcetype" | stats count by sourcetype
+[2021-07-13 17:55:32.924] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search (index=*) sourcetype="test_sourcetype" | stats count by sourcetype', 'auto_finalize_ec': 200, 'max_time': 120})
+[2021-07-13 17:55:33.042] DEBUG - root: Operation took 0:00:00.119589
+[2021-07-13 17:55:33.043] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:33.043] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179133.17/ (body: {})
+[2021-07-13 17:55:33.170] DEBUG - root: Operation took 0:00:00.126731
+[2021-07-13 17:55:33.171] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179133.17/ (body: {})
+[2021-07-13 17:55:33.300] DEBUG - root: Operation took 0:00:00.128578
+[2021-07-13 17:55:34.311] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179133.17/ (body: {})
+[2021-07-13 17:55:34.445] DEBUG - root: Operation took 0:00:00.133768
+[2021-07-13 17:55:34.474] DEBUG - SDKJobWrapper: Job 1626179133.17 wait is done.
+[2021-07-13 17:55:34.474] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179133.17/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:34.592] DEBUG - root: Operation took 0:00:00.118281
+[2021-07-13 17:55:34.599] INFO - pytest-splunk-addon: Executing the search query: search (index=*) sourcetype="test_sourcetype" AND (a IN ("*") AND NOT a IN ("-", "")) | stats count by sourcetype
+[2021-07-13 17:55:34.599] INFO - SDKJobsWrapper: Creating job with query: search (index=*) sourcetype="test_sourcetype" AND (a IN ("*") AND NOT a IN ("-", "")) | stats count by sourcetype
+[2021-07-13 17:55:34.599] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search (index=*) sourcetype="test_sourcetype" AND (a IN ("*") AND NOT a IN ("-", "")) | stats count by sourcetype', 'auto_finalize_ec': 200, 'max_time': 120})
+[2021-07-13 17:55:34.725] DEBUG - root: Operation took 0:00:00.126563
+[2021-07-13 17:55:34.726] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:34.726] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179134.18/ (body: {})
+[2021-07-13 17:55:34.858] DEBUG - root: Operation took 0:00:00.130305
+[2021-07-13 17:55:34.859] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179134.18/ (body: {})
+[2021-07-13 17:55:34.979] DEBUG - root: Operation took 0:00:00.121103
+[2021-07-13 17:55:35.984] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179134.18/ (body: {})
+[2021-07-13 17:55:36.115] DEBUG - root: Operation took 0:00:00.131345
+[2021-07-13 17:55:36.145] DEBUG - SDKJobWrapper: Job 1626179134.18 wait is done.
+[2021-07-13 17:55:36.146] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179134.18/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:36.268] DEBUG - root: Operation took 0:00:00.122094
+[2021-07-13 17:55:36.275] INFO - pytest-splunk-addon: Executing the search query: search (index=*) sourcetype="test_sourcetype" AND (b IN ("*") AND NOT b IN ("-", "")) | stats count by sourcetype
+[2021-07-13 17:55:36.275] INFO - SDKJobsWrapper: Creating job with query: search (index=*) sourcetype="test_sourcetype" AND (b IN ("*") AND NOT b IN ("-", "")) | stats count by sourcetype
+[2021-07-13 17:55:36.275] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search (index=*) sourcetype="test_sourcetype" AND (b IN ("*") AND NOT b IN ("-", "")) | stats count by sourcetype', 'auto_finalize_ec': 200, 'max_time': 120})
+[2021-07-13 17:55:36.398] DEBUG - root: Operation took 0:00:00.123049
+[2021-07-13 17:55:36.398] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:36.398] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179136.19/ (body: {})
+[2021-07-13 17:55:36.520] DEBUG - root: Operation took 0:00:00.121953
+[2021-07-13 17:55:36.521] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179136.19/ (body: {})
+[2021-07-13 17:55:36.635] DEBUG - root: Operation took 0:00:00.114671
+[2021-07-13 17:55:37.652] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179136.19/ (body: {})
+[2021-07-13 17:55:37.772] DEBUG - root: Operation took 0:00:00.120125
+[2021-07-13 17:55:37.801] DEBUG - SDKJobWrapper: Job 1626179136.19 wait is done.
+[2021-07-13 17:55:37.801] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179136.19/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:37.918] DEBUG - root: Operation took 0:00:00.116904
+[2021-07-13 17:55:37.925] INFO - pytest-splunk-addon: Executing the search query: search (index=*) sourcetype="test_sourcetype" AND ((a IN ("-", ""))) | stats count by sourcetype
+[2021-07-13 17:55:37.925] INFO - SDKJobsWrapper: Creating job with query: search (index=*) sourcetype="test_sourcetype" AND ((a IN ("-", ""))) | stats count by sourcetype
+[2021-07-13 17:55:37.926] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search (index=*) sourcetype="test_sourcetype" AND ((a IN ("-", ""))) | stats count by sourcetype', 'auto_finalize_ec': 200, 'max_time': 120})
+[2021-07-13 17:55:38.053] DEBUG - root: Operation took 0:00:00.127681
+[2021-07-13 17:55:38.054] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:38.054] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179138.20/ (body: {})
+[2021-07-13 17:55:38.173] DEBUG - root: Operation took 0:00:00.119103
+[2021-07-13 17:55:38.174] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179138.20/ (body: {})
+[2021-07-13 17:55:38.296] DEBUG - root: Operation took 0:00:00.122145
+[2021-07-13 17:55:39.309] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179138.20/ (body: {})
+[2021-07-13 17:55:39.437] DEBUG - root: Operation took 0:00:00.127540
+[2021-07-13 17:55:39.467] DEBUG - SDKJobWrapper: Job 1626179138.20 wait is done.
+[2021-07-13 17:55:39.468] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179138.20/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:39.588] DEBUG - root: Operation took 0:00:00.119499
+[2021-07-13 17:55:39.594] INFO - pytest-splunk-addon: Executing the search query: search (index=*) sourcetype="test_sourcetype" AND ((b IN ("-", ""))) | stats count by sourcetype
+[2021-07-13 17:55:39.594] INFO - SDKJobsWrapper: Creating job with query: search (index=*) sourcetype="test_sourcetype" AND ((b IN ("-", ""))) | stats count by sourcetype
+[2021-07-13 17:55:39.594] DEBUG - root: POST request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/ (body: {'search': 'search (index=*) sourcetype="test_sourcetype" AND ((b IN ("-", ""))) | stats count by sourcetype', 'auto_finalize_ec': 200, 'max_time': 120})
+[2021-07-13 17:55:39.713] DEBUG - root: Operation took 0:00:00.119311
+[2021-07-13 17:55:39.714] DEBUG - SDKJobWrapper: Waiting for job to finish.
+[2021-07-13 17:55:39.714] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179139.21/ (body: {})
+[2021-07-13 17:55:39.833] DEBUG - root: Operation took 0:00:00.118485
+[2021-07-13 17:55:39.834] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179139.21/ (body: {})
+[2021-07-13 17:55:39.953] DEBUG - root: Operation took 0:00:00.119334
+[2021-07-13 17:55:40.961] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179139.21/ (body: {})
+[2021-07-13 17:55:41.088] DEBUG - root: Operation took 0:00:00.126714
+[2021-07-13 17:55:41.123] DEBUG - SDKJobWrapper: Job 1626179139.21 wait is done.
+[2021-07-13 17:55:41.123] DEBUG - root: GET request to https://10.0.6.47:8089/servicesNS/nobody/system/search/jobs/1626179139.21/results (body: {'segmentation': 'none'})
+[2021-07-13 17:55:41.240] DEBUG - root: Operation took 0:00:00.116810
